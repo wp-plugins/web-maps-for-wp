@@ -1,6 +1,6 @@
 <?php
 /*
- Plugin Name: WordPress Plugin for ArcGIS Online Free
+ Plugin Name: Web Maps for WordPress Free
  Plugin URI: http://www.geo-jobe.com/wordpress-plugin-for-arcgis-online/
  Description: Wordpress Plugin for ArcGIS Online is the best way to quickly and easily search for and insert authoritative maps directly into your blog posts.  The plugin connects you to ArcGIS Online, one of the largest resources of online mapping content in the world.  The Add a Map button mimics that of both a queried google search and the standard WordPress Add Media functionality. Light and Pro Versions of this plugin are also available.
  Version: 1.0
