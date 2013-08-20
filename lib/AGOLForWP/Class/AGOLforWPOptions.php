@@ -88,10 +88,10 @@ class AGOLforWP_Class_AGOLforWPOptions {
 
 		echo '<div class="wrap">
 	<div class="icon32" id="icon-options-general"></div>
-	<h2>' . __( 'WordPress Plugin for ArcGIS Online' ) . '</h2>';
+	<h2>' . __( 'Web Maps for WordPress' ) . '</h2>';
 
 		if ( isset( $_GET['settings-updated'] ) && $_GET['settings-updated'] == true )
-			echo '<div class="updated fade"><p>' . __( 'WordPress Plugin for ArcGIS Online options updated.' ) . '</p></div>';
+			echo '<div class="updated fade"><p>' . __( 'Web Maps for WordPress options updated.' ) . '</p></div>';
 
 		echo '<form action="options.php" method="post">';
 

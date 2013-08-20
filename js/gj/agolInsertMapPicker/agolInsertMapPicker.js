@@ -47,7 +47,7 @@ dojo.addOnLoad(function() {
                     if (itemsResults.results[i].thumbnailUrl != null) {
                         pathToThumb = itemsResults.results[i].thumbnailUrl;
                     } else {
-                        pathToThumb = options.pluginsPath + '/wppluginforagol_free/assets/ago_default.png';
+                        pathToThumb = options.pluginsPath + '/web-maps-for-wp/assets/ago_default.png';
                     }
                     //Assign values to preview attributes for each item
                     var portalName = itemsResults.results[i].portal.portalName;
