@@ -56,14 +56,17 @@ add_action('admin_enqueue_scripts', 'register_dojo_parser');
 //Register all addional scripts
 function agol_for_wp_register_additional_scripts_method() {
 
-	//Add ESRI JS Lib
-	wp_enqueue_script("esri_js_api", "http://serverapi.arcgisonline.com/jsapi/arcgis/3.3compact");
-
 	//jQuery
 	wp_enqueue_script("jquery");
 
+	//Add ESRI JS Lib
+	wp_register_script("esri_js_api", "http://js.arcgis.com/3.3/", array('jquery'), NULL, true);
+	wp_enqueue_script("esri_js_api");
+
+	
+
 	//GEO-Jobe Classes
-	wp_enqueue_script("gj_agolInsertMapPicker", plugins_url( '/js/gj/agolInsertMapPicker/agolInsertMapPicker.js' , __FILE__ ), array('jquery'));
+	wp_enqueue_script("gj_agolInsertMapPicker", plugins_url( '/js/gj/agolInsertMapPicker/agolInsertMapPicker.js' , __FILE__ ), array('jquery'), '1.0', true);
 }
 
 //Add addigional scripts to Wordpress
@@ -98,13 +101,13 @@ function agol_for_WP_Add_Media_Bar_Buttons($context) {
 //Add action to append buttons to the Media Bar
 add_action('media_buttons_context',  'agol_for_WP_Add_Media_Bar_Buttons');
 
-//Function to add hiden container called by new media buttons
+//Function to add hidden container called by new media buttons
 function add_inline_popup_content() {
 	include 'templates/mediaAddMap.php';
 }
 
 //Add action to append hidden containers called by the media bar
-add_action( 'admin_footer',  'add_inline_popup_content' );
+add_action( 'shutdown',  'add_inline_popup_content' );
 
 //Function to add link services
 function add_gis_link_services() {

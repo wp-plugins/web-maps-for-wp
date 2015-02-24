@@ -1,6 +1,4 @@
-
 <script>
-
 dojo.require('esri.arcgis.Portal');
 dojo.addOnLoad(function() {
 
@@ -107,7 +105,7 @@ dojo.addOnLoad(function() {
 		</div>
 		<div id='agol_for_WP_insert_map_popup_create_view' style='display: none;'>
 			<h2>Create a Map</h2>
-			<a href="http://www.geo-jobe.com/wp/upgrade" target="_blank"><img src="http://cdn.geopowered.com/Applications/WordPressPlugins/AGOL/Free/info/VersionChart400x487.png" alt="Plugin version comparison" /></a>
+			<a href="http://www.geo-jobe.com/wp/web-maps-for-wordpress-pro-plugin/" target="_blank"><img src="http://cdn.geopowered.com/Applications/WordPressPlugins/AGOL/Free/info/VersionChart400x487.png" alt="Plugin version comparison" /></a>
 		</div>
 	</div>
 </div>
