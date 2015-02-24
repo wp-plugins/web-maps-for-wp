@@ -170,7 +170,7 @@ class AGOLforWP_Class_AGOLforWPOptions {
 
 	 */
 	public function display_section() {
-		echo '<p><a href="http://www.geo-jobe.com/wp/upgrade" target="_blank"><img src="http://cdn.geopowered.com/Applications/WordPressPlugins/AGOL/Free/info/VersionChart500x600.png" alt="Version comparison" /></a></p>';
+		echo '<p><a href="http://www.geo-jobe.com/wp/web-maps-for-wordpress-pro-plugin/" target="_blank"><img src="http://cdn.geopowered.com/Applications/WordPressPlugins/AGOL/Free/info/VersionChart500x600.png" alt="Version comparison" /></a></p>';
 	}
 
 	/**
