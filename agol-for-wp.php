@@ -3,7 +3,7 @@
  Plugin Name: Web Maps for WordPress Free
  Plugin URI: http://www.geo-jobe.com/wordpress-plugin-for-arcgis-online/
  Description: Web Maps for WordPress is the best way to quickly and easily search for and insert authoritative maps directly into your blog posts and pages.
- Version: 1.1
+ Version: 1.1.1
  Author: GEO-Jobe GIS Consulting
  Author URI: http://GEO-Jobe.com/
  License: GNU General Public License
@@ -67,6 +67,8 @@ function agol_for_wp_register_additional_scripts_method() {
 
 	//GEO-Jobe Classes
 	wp_enqueue_script("gj_agolInsertMapPicker", plugins_url( '/js/gj/agolInsertMapPicker/agolInsertMapPicker.js' , __FILE__ ), array('jquery'), '1.0', true);
+
+	wp_enqueue_script("gj_addMapLogic", plugins_url( '/js/gj/addMap/addMap.js' , __FILE__ ), array('jquery'), NULL, true);
 }
 
 //Add addigional scripts to Wordpress
@@ -107,7 +109,8 @@ function add_inline_popup_content() {
 }
 
 //Add action to append hidden containers called by the media bar
-add_action( 'shutdown',  'add_inline_popup_content' );
+add_action( 'admin_footer',  'add_inline_popup_content' );
+
 
 //Function to add link services
 function add_gis_link_services() {
