@@ -5,7 +5,7 @@ Free Version Upgrade to Pro Version See http://geo-jobe.com/wp/upgrade
 Tags: arcgis, online, maps, mapping, map, add a map, button, esri, authoritative, post, posts, embed, search, searching, web maps, AGOL, ArcGIS Online, Esri 
 Requires at least: 3.5
 Tested up to: 4.1.1
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv3
 
 Web Maps for WordPress is the best way to quickly and easily search for and insert authoritative maps directly into your blog posts and pages.
