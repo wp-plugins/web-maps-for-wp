@@ -1,0 +1,245 @@
+/*********************************************
+ *
+ *  Media Insert Map
+ *
+ *********************************************/
+ 
+#TB_title{
+	height: 6%;
+	font-weight: bold;
+	font-size: 16px;
+	vertical-align: middle;
+}
+
+#TB_ajaxContent{
+	padding: 0px;
+	width: 100% !important;
+	height: 94% !important;
+	overflow: hidden;
+}
+
+#agol_for_WP_insert_map_popup_left_container{
+	width: 30%;
+	height: 100%;
+	float:left;
+	position:absolute;
+}
+
+#agol_for_WP_insert_map_popup_left_container_list{
+	padding-left: 20px;	
+}
+
+#agol_for_WP_insert_map_popup_left_container a{
+	font-size: 16px;
+	display: block;
+	line-height: 22px;
+	padding-top: 12px;
+	cursor: pointer;
+}
+
+#agol_for_WP_insert_map_popup_left_container hr{
+	width: 80%;
+	margin-top: 10px;
+}
+
+#agol_for_WP_insert_map_popup_right_container{
+	float:right;
+	width: 70%;
+	height: 100%;
+	overflow: auto;
+}
+
+#agol_for_WP_insert_map_popup_right_container h3 {
+	word-wrap: break-word;
+}
+
+#agol_for_WP_insert_map_popup_map_insert_type_container a{
+	cursor: pointer;
+}
+
+#agol_for_WP_insert_map_popup_map_insert_type_container a:last-child{
+	padding-left: 10px;
+}
+
+#agol_for_WP_insert_map_popup_map_insert_content_container{
+	padding-top: 15px;
+}
+
+#agolforwp_preview_top_left {
+	width: 250px;
+	float: left;
+	overflow: hidden;
+}
+
+#agolforwp_preview_top_left img {
+	border: 1px solid #000;
+	margin: 20px 20px 0px 20px;
+}
+
+#agolforwp_preview_top_left h4{
+	margin-top: 5px;
+	text-align: center;
+}
+
+#agolforwp_preview_top_right {
+	width: 150px;
+	float: left;
+	clear: none;
+}
+
+p#agol_for_wp_insert_map_buttons {
+	float: left;
+	clear: left;
+}
+
+#agolforwp_preview_bottom {
+	width: 98%;
+	margin-right: 1%;
+	padding-bottom: 12px;
+	text-align: center;
+	overflow: hidden;
+	float: right;
+	clear: left;"
+}
+
+#agol_for_wp_insert_Map_Preview_Title {
+	float: left;
+	clear: left;
+	margin-bottom: 10px !important;
+}
+
+#agolforwp_preview_bottom iframe {
+	border: 1px solid #000;
+}
+
+.agolforwp_insert_map_preview_top_row_container{
+	height: 175px;
+}
+
+#agolforwp_advanced_view_options fieldset {
+	margin-bottom: 1em;
+}
+
+#agolforwp_advanced_view_options_size_fieldset {
+	overflow: auto;
+}
+
+#agolforwp_advanced_view_options_size_fieldset legend {
+	float: left;
+	clear: left;
+	color: #888;
+}
+
+#agolforwp_advanced_view_options_size_fieldset div {
+	width: 16%;
+	margin-right: 3%;
+	float: left;
+}
+
+#agolforwp_advanced_view_options_size_fieldset label, 
+#agolforwp_advanced_view_options_size_fieldset .agol_radio,  
+#agolforwp_advanced_view_options_size_fieldset .agol_text {
+	float: left;
+}
+
+#agolforwp_advanced_view_options_size_fieldset label {
+	padding-left: 5px;
+}
+
+.agol_subfield {
+	width: 85% !important;
+	margin: 0 !important;
+}
+
+.agol_subfield label {
+	width: 40px;
+}
+
+.agol_clear_l {
+	clear: left;
+}
+
+#agolforwp_advanced_view_options_size_fieldset .agol_text {
+	width: 40px;	
+}
+
+#agolforwp_advanced_view_options_tools_fieldset div {
+	float: left;
+	width: 33%;
+}
+
+#agolforwp_advanced_view_options_tools_fieldset label {
+	margin-left: 5px;
+}
+
+.agolforwp_advanced_view_button_container{
+	text-align: center;
+}
+
+/*********************************************
+ *
+ *  Media Insert Map Picker
+ *
+ *********************************************/
+
+.agol_insert_map_align_left {
+	float: left;
+	margin-right: 10px;
+}
+
+.agol_insert_map_align_center {
+	width: 100% !important;
+	text-align: center;
+}
+
+.agol_insert_map_align_right {
+	float: right;	
+	margin-left: 10px;
+}
+
+.insert_map_iframe_container iframe {
+	float: left;
+	clear: both;
+	margin-bottom: 5px;
+}
+
+.insert_map_iframe_container small {
+	display: block;
+	text-align: center;
+	float: left;
+	clear: left;
+}
+
+.insert_map_iframe_container div {
+	float: right;
+	clear: none;
+	text-align: center !important;
+}
+
+.agol_for_wp_insert_map_picker_item_container{
+	float: left;
+	width: 212px;
+	height: 200px;
+	padding-bottom: 15px;
+	border: 1px solid #000000;
+	text-align: center;
+	cursor: pointer;
+}
+
+.agol_for_wp_insert_map_picker_item_container img{
+	padding-top: 10px;
+}
+
+.agol_for_wp_insert_map_picker_item_container h3{
+	margin-top: 5px;
+	text-align: center;
+}
+
+#agol_for_wp_insert_map_picker_items_container{
+	height: 100%;
+}
+
+#agol_for_WP_insert_map_popup_map_insert_content_container #loader {
+	margin: 0 auto !important;
+	text-align: center;	
+}
